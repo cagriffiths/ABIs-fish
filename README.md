@@ -1,5 +1,5 @@
 # ABIs-fish
-Data and code to produce and visualise the age-based indicators (ABImsy and ABI0) in Griffiths et al. 2023. 
+Data and code to calculate the age-based indicators (ABImsy and ABI0) in Griffiths et al. 2023. 
 
 *Data* is split into three .rdata file:
 
