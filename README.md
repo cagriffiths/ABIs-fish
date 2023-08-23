@@ -3,7 +3,7 @@ Data and code to produce and visualise the age-based indicators (ABImsy and ABI0
 
 *Data* is split into three .rdata file:
 
-(1) `FLR_stock_objects` - FLR stock objects for 81 Category 1 stocks in the Northeast Atlantic. Includes all aspects of each stock's age based analytical assessment including estimates of SSB, R and F, and details of any reference points (e.g., Fmsy or MSY Btigger) and methods (e.g., SAM or SS3) used. 
+(1) `FLR_stock_objects` - FLR stock objects for 81 ICES Category 1 stocks in the Northeast Atlantic. Includes all aspects of each stock's age based analytical assessment including estimates of SSB, R and F, and details of any reference points (e.g., Fmsy or MSY Btigger) and methods (e.g., SAM or SS3) used. 
 
 (2) `age_structure_at_eq` - estimated age structure at equilibrium for 72 stocks under both Fmsy and F0.
 
