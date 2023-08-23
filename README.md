@@ -1,21 +1,21 @@
 # ABIs-fish
 Data and code to calculate the age-based indicators (ABImsy and ABI0) in Griffiths et al. 2023. 
 
-*Data* is split into three .rdata file:
+*Data* is split into three .rdata files:
 
 (1) `FLR_stock_objects` - FLR stock objects for 81 ICES Category 1 stocks in the Northeast Atlantic. Includes all aspects of each stock's age based analytical assessment including estimates of SSB, R and F, and details of any reference points (e.g., Fmsy or MSY Btigger) and methods (e.g., SAM or SS3) used. 
 
 (2) `age_structure_at_eq` - estimated age structure at equilibrium for 72 stocks under both Fmsy and F0.
 
-(3) `indicator_data` - ABImsy and ABI0 values for each stock (n = 72) and year.
+(3) `indicator_data` - ABImsy and ABI0 values for each stock (n = 72) and year. Seperate .csv files for each stock are also provided in the folder `indicator data by stock`. 
 
 *Code* is split into three primary files:
 
-(1) `age_structure_at_eq` - code to approximate the age structure of a stock at equilibrium under a given F. Includes SRR specification and simulation from Griffiths et al. 2023. 
+(1) `age_structure_at_eq` - code to approximate the age structure of a stock at equilibrium under a given F. Includes SRR specification and simulation from Griffiths et al. 2023. Also produces the example .csv file `output/age_structure_Eq_hke.27.3a46-8abd.csv` and the plot `output/age_structure_Eq_hke.27.3a46-8abd`.  
 
-(2) `calc_ABI` - code to calculate ABImsy and ABI0 (as well as Amsy, Pmsy, A0 and P0). Includes threshold option (> 0.9) and can be used to extract total abundance of old fish. 
+(2) `calc_ABI` - code to calculate ABImsy and ABI0 (as well as Amsy, Pmsy, A0 and P0). Includes threshold option (> 0.9) and can be used to extract total abundance of old fish. Also produces the files listed in `data/indicator data by stock`. 
 
-(3) `plot_ABI` - code to recreate Figures 3 and 4 from Griffiths et al. 2023 which contain all the information neccessary for stock status classification.
+(3) `plot_ABI` - code to recreate Figures 3 and 4 from Griffiths et al. 2023 which contain all the information neccessary for stock status classification. Produces the plot `output/stock_plot_her.27.5a`.
 
 Simulation code will follow in the next few weeks. 
 
