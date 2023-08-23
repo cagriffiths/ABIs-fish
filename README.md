@@ -38,7 +38,7 @@ or directly directly from the github repository by using:
   
   remotes::install_github("flr/FLasher")
  ``` 
-For documentation or troubleshooting on FLR, we refer users to https://github.com/flr. The version of each package used is detailed at the start of each code file. 
+For documentation or troubleshooting on FLR, we refer users to https://github.com/flr. The version of each package used is detailed at the start of each `code` file. 
 
 # Citations
 Griffiths, C. A., Winker, H., Bartolino, V., Wennhage, H., Orio, A. and Cardinale, M. (2023). Including older fish in fisheries management: a new age-based indicator and reference point for exploited fish stocks. *Fish and Fisheries*, accepted. 
