@@ -13,6 +13,14 @@ gc()
 options(scipen = 99999)
 
 ###
+# Install packages
+#----------------------------------------------
+# install.packages("TMB", type="source")
+# install.packages(c('FLCore','ggplotFL', 'FLBRP', 'mse', 'FLSRTMB'), repo='https://flr.r-universe.dev')
+# devtools::install_github("henning-winker/FLRef")
+#----------------------------------------------
+
+###
 # packages - see README for install instructions
 library(FLCore)
 library(ggplotFL)
