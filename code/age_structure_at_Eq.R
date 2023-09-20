@@ -30,7 +30,7 @@ load('data/FLR_stock_objects.rdata') # 81 stocks
 
 # check for stocks with Fmsy and Blim values
 stk.id = do.call(c,lapply(stks,function(x){
-  if(!is.na(x@benchmark[[1]]) & !is.na(x@benchmark[[4]])){ # reference points stored in the @benchmark slot of the FLR stock object
+  if(!is.na(x@benchmark[["Fmsy"]]) & !is.na(x@benchmark[["Blim"]])){ # reference points stored in the @benchmark slot of the FLR stock object
     x@name
     }}))
 
