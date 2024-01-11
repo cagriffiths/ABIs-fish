@@ -47,7 +47,7 @@ Simulation code also uses the following FLR packages: `mse`, `ggplotFL`, `FLRef`
 For all documentation or troubleshooting on FLR, we refer users to https://github.com/flr. The version of each package used is detailed at the start of each `code` file. 
 
 # Citations
-Griffiths, C. A., Winker, H., Bartolino, V., Wennhage, H., Orio, A. and Cardinale, M. (2023). Including older fish in fisheries management: a new age-based indicator and reference point for exploited fish stocks. *Fish and Fisheries*, accepted. 
+Griffiths, C. A., Winker, H., Bartolino, V., Wennhage, H., Orio, A. and Cardinale, M. (2024). Including older fish in fisheries management: a new age-based indicator and reference point for exploited fish stocks. *Fish and Fisheries*, 25, 18–37. https://doi.org/10.1111/faf.12789
 
 Kell, L. T., I. Mosqueira, P. Grosjean, J-M. Fromentin, D. Garcia, R. Hillary, E. Jardim, S. Mardle, M. A. Pastoors, J. J. Poos, F. Scott, R. D. Scott. 2007. FLR: an open-source framework for the evaluation and development of management strategies. *ICES Journal of Marine Science*, 64 (4): 640-646. doi: 10.1093/icesjms/fsm012.
 
